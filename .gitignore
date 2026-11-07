@@ -1,6 +1,23 @@
-# created by virtualenv automatically
-lib64/*
-lib/*
-bin/*
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtualenvs
+venv/
+.venv/
+bin/
+lib/
+lib64/
 pyvenv.cfg
+
+# Environment & secrets
+.env
 key.json
+
+# Local database & data
+data/
+*.db
+
+# OS
+.DS_Store

@@ -1,0 +1,8 @@
+services:
+  bookbot:
+    build: .
+    container_name: bookbot
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./data:/app/data
